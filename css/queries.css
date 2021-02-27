@@ -1,0 +1,169 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .rowN { padding: 0 2%; }
+    
+
+    
+    .carousel-inner {
+    height:500px;
+    width:555px;
+}
+    
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    .app{
+        
+    }
+    .carousel-inner {
+    height:400px;
+    width:555px;
+}
+    .app{
+        margin-left: -50px;
+    }
+    .add{
+        padding:20px;
+        
+    }
+    h1{
+        font-family: sans-serif;
+        
+    }
+    .menu-item{
+        opacity: 1;
+    }
+}
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .rowN,
+    .hero-text-box { padding: 0 4%; }
+    
+    
+    
+    .main-navn { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-navn {
+        float: right;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-navn li {
+        display: block;
+    }
+    
+    .main-navn li a:link,
+    .main-navn li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-navn { margin-top: 10px; }
+
+    .sticky .main-navn li a:link,
+    .sticky .main-navn li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+    
+    
+    
+    h1 { font-size: 180%; }
+    h2 { font-size: 150%; }
+    
+    .menu-item-text{
+    margin:0;
+    text-align: center;
+    }
+    .menu-item{
+        margin-top:10px;
+        width: 30%;
+        height: auto;
+    }
+    .carousel-inner {
+    height:200px;
+    width:555px;
+}
+    .app{
+    
+    
+    }
+    .btn-call{
+        margin-top: 5px;
+    }
+    .app-screen{
+        height: 400px;
+        width:90%;
+    }
+    .add{
+        padding:20px;
+    }
+    .txt{
+        font-size: 20px;
+    }
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .order{
+        padding: 0;
+        
+    }
+    .btn-zomato{
+        margin-left:-70px;
+    }
+    .menu-item{
+    width:35%;
+    height: auto;
+    border-radius: 100%;
+     
+    transform: scale(1);
+    opacity: 1; /*to make it lighter*/
+    
+    
+}
+    .txt{
+        font-size:20px;
+        font-weight: 400;
+    }
+    .hero-text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   font-size:2.5rem;
+        
+        
+}
+    .card-text{
+    font-size: 13px;
+    font-weight: 400;
+    padding:5%;
+}
+    .card{
+        margin:10px;
+    }
+    .navbar img{
+        height:50%;
+        width: 50%;
+    }
+    
+    
+}
+
