@@ -34,16 +34,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
     <!--SCRIPT FOR MAPS API----->
     <script>
-      // Initialize and add the map
+      
       function initMap() {
-        // The location of THE BURGER NATION
+        
         const TBN = { lat: 28.38818, lng: 77.35344 };
-        // The map, centered at THE BURGER NATION
+       
         const map = new google.maps.Map(document.getElementById("map"), {
           zoom: 10,
           center: TBN,
         });
-        // The marker, positioned at THE BURGER NATION
+       
         const marker = new google.maps.Marker({
           position: TBN,
           map: map,
