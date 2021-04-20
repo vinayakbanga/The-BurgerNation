@@ -13,7 +13,12 @@
     height:500px;
     width:555px;
 }
-    
+.mapsm{
+    display: none;
+}
+.maplg{
+    border: solid 5px;
+}
 }
 
 /* Small tablet to big tablet: from 768px to 1023px */
@@ -40,7 +45,11 @@
     .menu-item{
         opacity: 1;
     }
+    .mapsm{
+        display: none;
+    }
 }
+
 
 
 
@@ -117,6 +126,9 @@
     .txt{
         font-size: 20px;
     }
+    .mapsm{
+        display: none;
+    }
 
 
 
@@ -163,7 +175,16 @@
         height:50%;
         width: 50%;
     }
+    .maplg {
+         display: none;
+        height: 400px;
+        /* The height is 400 pixels */
+        width: 100%;
+        /* The width is the width of the web page */
+      
     
     
 }
 
+}
+}
